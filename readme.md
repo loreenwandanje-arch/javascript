@@ -217,10 +217,13 @@ b) Objects
 2.Task on slides 72 & 73
 
 
+*splice()*-
 
 
-*why indexing starts from zero?*
-*spread operators*
+*OBJECTS*
+a data sructure that stores values in key value pairs
+equivalent of dictionaries in python
+
 
 
 

@@ -39,6 +39,7 @@ console.log(values.at(3))
 console.log(values.at(-2)) //-8
 
 //splice()-adds new items to an array
+// syntax example- colors.splice(1,2,"yellow","black")
 values.splice(9,0,"phones")
 console.log(values)
 
