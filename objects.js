@@ -17,3 +17,5 @@ console.log(Object.entries(person))
 person.name = "Hannah"
 console.log(person)
 
+console.log(this.name)
+
