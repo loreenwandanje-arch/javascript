@@ -1,31 +1,31 @@
 // let x = Number(prompt("Enter a number"))
 
-// if (x%2==0){
-//     console.log ("Even number")
-// }else{
-//     console.log("Not an even number")
-// }
+if (x%2==0){
+    console.log ("Even number")
+}else{
+    console.log("Not an even number")
+}
 
 // // write a simple if statement to check eligibilty of a voter(assume a voter must be at least 18 years)
-// let x = Number (prompt("Please enter your age"))
+let x = Number (prompt("Please enter your age"))
 
-// if (x >= 18){
-//     console.log("Eligible to vote")
-// }else{
-//     console.log("Not eligible")
-// }
+if (x >= 18){
+    console.log("Eligible to vote")
+}else{
+    console.log("Not eligible")
+}
 
 // let num1= Number(prompt("Enter num1"))
 // let num2= Number(prompt("Enter num2"))
 // let num3= Number(prompt("Enter num3"))
 
-// if((num1 > num2) && (num1 > num3)){
-//     console.log ("Num1 is the largest")
-// }else if ((num2 > num1) && (num2 > num3)){
-//     console.log("Num2 is the largest")
-// }else{
-//     console.log("Num3 is the largest")
-// }
+if((num1 > num2) && (num1 > num3)){
+    console.log ("Num1 is the largest")
+}else if ((num2 > num1) && (num2 > num3)){
+    console.log("Num2 is the largest")
+}else{
+    console.log("Num3 is the largest")
+}
 
 // // write a program that determines ticket prices based on age :
 // // under 12-500/=,under 18-650/=,aduls-800/=,over 60years-400/=
@@ -34,11 +34,11 @@
 // // if length < 8,output "too short" otherwise output "correct format-"
 // let username = Number(prompt("Enter Username"))
 
-// if (username < 8 ){
-//     console.log("Too short,try again!")
-// }else {
-//     console.log("Correct Format")
-// }
+if (username < 8 ){
+    console.log("Too short,try again!")
+}else {
+    console.log("Correct Format")
+}
 
 // // TASK 1
 // // Conditional Statement A student’s final grade is determined by their exam score (an number between 0 and 100) using the rules below: 
@@ -65,13 +65,13 @@ if ((grade < 0) && (grade > 100)){
 // // TASK 2
 // // Create a variable and console log whether a number is odd or even
 
-// let num = Number(prompt("Enter A Number"))
+let num = Number(prompt("Enter A Number"))
 
-// if ((num % 2==0)){
-//     console.log("Even Number")
-// }else{
-//     console.log("Odd Number")
-// }
+if ((num % 2==0)){
+    console.log("Even Number")
+}else{
+    console.log("Odd Number")
+}
 
 // // TASK 3
 // // Create 3 variables and console log the largest of them. Assume that the user would not enter any two numbers which are the same.
@@ -79,15 +79,15 @@ if ((grade < 0) && (grade > 100)){
 // let num2 = Number(prompt("Enter num2"))
 // let num3 = Number(prompt("Enter num3"))
 
-// if ((num1 == num2) && (num1 == num3) && (num2 == num3)){
-//     console.log("Same number!Try Again")
-// }else if ((num1 > num2) && (num1 > 3)){
-//     console.log("num1 is the largest")
-// }else if((num2 > num1) && (num2 > num3)){
-//     console.log("num2 is the largest")
-// }else{
-//     console.log("num3 is the largest")
-// }
+if ((num1 == num2) && (num1 == num3) && (num2 == num3)){
+    console.log("Same number!Try Again")
+}else if ((num1 > num2) && (num1 > 3)){
+    console.log("num1 is the largest")
+}else if((num2 > num1) && (num2 > num3)){
+    console.log("num2 is the largest")
+}else{
+    console.log("num3 is the largest")
+}
 
 // // TASK 4
 // // Create a variable called year and enter the a random year. Check if the year is a leap year or not. 
@@ -106,28 +106,28 @@ else {
 // // Take as input from a user the temperature if the temperature is above 30°C display “The temperature is too high”,
 // // if the temperature   is above 15 display “Normal temperature” otherwise display “Cold temperature”
 
-// let temp = Number(prompt("Enter the temperature"))
+let temp = Number(prompt("Enter the temperature"))
 
-// if (temp > 30){
-//     console.log("The temperature is too high")
-// }else if ((temp > 15) && (temp < 30)){
-//     console.log("Normal Temperature")
-// }else{
-//     console.log("Cold temperature")
-// }
+if (temp > 30){
+    console.log("The temperature is too high")
+}else if ((temp > 15) && (temp < 30)){
+    console.log("Normal Temperature")
+}else{
+    console.log("Cold temperature")
+}
 
 // // TASK 6
 // // Write a js program that checks if a variable x is between 10 and 20 (inclusive) 
 // // and if another variable y is greater than 100. If both conditions are true, display"Conditions met", otherwise display"Conditions not met"
 
-// let x = Number(prompt("Enter a num1"))
-// let y = Number(prompt("Enter num2"))
+let x = Number(prompt("Enter a num1"))
+let y = Number(prompt("Enter num2"))
 
-// if ((x >= 10) && (x <= 20) && (y > 100)){
-//     console.log("Conditions met")
-// }else {
-//     console.log("Conditions not met")
-// }
+if ((x >= 10) && (x <= 20) && (y > 100)){
+    console.log("Conditions met")
+}else {
+    console.log("Conditions not met")
+}
 
 // // TASK 7
 // // Write a js program that checks if a variable password is equal 

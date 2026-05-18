@@ -772,7 +772,7 @@ let countries = [
     },
     {
         "country": "Serbia",
-        "population": 6963764	
+        "population": 6963764
     },
     {
         "country": "Seychelles",
@@ -980,15 +980,18 @@ let countries = [
     }
 ]
 
-let pops = countries.reduce((total, { population }) => {
-  let m = population / 1_000_000;
-  if (m <= 50)       total["0-50m"]++;
-  else if (m <= 100) total["51-100m"]++;
-  else               total[">100m"]++;
-  return total;
-}, { "0-50m": 0, "51-100m": 0, ">100m": 0 });
+let pops = { "0-50m": 0, "51-100m": 0, ">100m": 0 }
+for (let i = 0; i < array1.length; i++) {
+    if (array[i].population <= 50_000_000) {
+        pops["0-50m"]++
+    } else if (array[i].population <= 100_000_000) {
+        pops["51-100m"]
+    } else {
+        pops
+    }
+}
 
-console.log(pops);
+console.log(pops)
 
 
 // TASK 2
@@ -1027,7 +1030,7 @@ let company = {
         { title: "Brand Awareness Campaign", deadline: "2025-10-15", team: [3, 4] }
     ]
 }
- // Employee IDs }, { title: "Brand Awareness Campaign", deadline: "2025-10-15", team: [3, 4] } ] 
+// Employee IDs }, { title: "Brand Awareness Campaign", deadline: "2025-10-15", team: [3, 4] } ] 
 // 1. PostgreSQL
 console.log(company.departments[0].employees[1].skills[2])
 

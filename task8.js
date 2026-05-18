@@ -1,0 +1,19 @@
+// Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”.
+//  Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point 
+// and print the total number of demerit points.
+// For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, 
+// the function should print: “License suspended”.
+let car_speed = Number(prompt("Enter speed of the car:"))
+let speed_limit = 70
+
+if (car_speed < speed_limit) {
+    console.log("OK")
+} else {
+    let demerit_points = Math.floor((car_speed - speed_limit) / 5)
+
+    if (demerit_points > 12) {
+        console.log("License suspended")
+    } else {
+        console.log(`Points: ${demerit_points}`)
+    }
+}
