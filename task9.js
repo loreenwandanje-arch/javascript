@@ -7,9 +7,8 @@
 // ****
 // *****.....
 
-let rows = Number(prompt("Enter a number:"))
+// for (let i = 1; i <= rows; i++) {
+//     let stars = "*".repeat(i)
+//     console.log(stars)
+// }*****poor code 
 
-for (let i = 1; i <= rows; i++) {
-    let stars = "*".repeat(i)
-    console.log(stars)
-}

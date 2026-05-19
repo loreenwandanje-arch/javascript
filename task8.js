@@ -4,16 +4,16 @@
 // For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, 
 // the function should print: “License suspended”.
 let car_speed = Number(prompt("Enter speed of the car:"))
-let speed_limit = 70
+// let speed_limit = 70
 
-if (car_speed < speed_limit) {
-    console.log("OK")
-} else {
-    let demerit_points = Math.floor((car_speed - speed_limit) / 5)
+// if (car_speed < speed_limit) {
+//     console.log("OK")
+// } else {
+//     let demerit_points = Math.floor((car_speed - speed_limit) / 5)
 
-    if (demerit_points > 12) {
-        console.log("License suspended")
-    } else {
-        console.log(`Points: ${demerit_points}`)
-    }
-}
+//     if (demerit_points > 12) {
+//         console.log("License suspended")
+//     } else {
+//         console.log(`Points: ${demerit_points}`)
+//     }
+// }

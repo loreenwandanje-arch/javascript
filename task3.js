@@ -3,23 +3,27 @@
 // e.g if a user enters “0112345678”, the program should display “+254112345678”
 // e.g if a user enters “712345678”, the program should display “+254712345678”
 
-let phone = prompt("Enter your phone number:").trim();
-let result;
+// let result
 
-if (phone.startsWith("+254")) {
-    result = phone;
+// if (phone.startsWith("+254")) {
+//     result = phone
 
-} else if (phone.startsWith("254")) {
-    result = "+" + phone;
+// } else if (phone.startsWith("254")) {
+//     result = "+" + phone
 
-} else if (phone.startsWith("07") || phone.startsWith("01")) {
-    result = "+254" + phone.slice(1); // remove the 0, add +254
+// } else if (phone.startsWith("07") || phone.startsWith("01")) {
+//     result = "+254" + phone.slice(1)
 
-} else if (phone.startsWith("7") || phone.startsWith("1")) {
-    result = "+254" + phone;
+// } else if (phone.startsWith("7") || phone.startsWith("1")) {
+//     result = "+254" + phone
 
-} else {
-    result = "Invalid phone number";
+// } else {
+//     result = "Invalid phone number"
+// }
+
+// console.log(result)
+
+let phone = prompt("Enter your phone number:")
+if((phone.startsWith("07") || phone.startsWith("01")) && phone.length == 10){
+    console.log("+254" + phone.slice(1)) //make sure thelength is satisfied
 }
-
-console.log(result);
